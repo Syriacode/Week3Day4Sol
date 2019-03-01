@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D83A3A"
+    tools:context=".Output">
+
+
+    <TextView
+        android:id="@+id/tvLabelDynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFO PASSED FROM THE DYNAMIC FRAGMENT"/>
+
+    <TextView
+        android:id="@+id/tvInfoDynamic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+</LinearLayout>
